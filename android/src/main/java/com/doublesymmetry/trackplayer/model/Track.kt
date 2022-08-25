@@ -43,6 +43,7 @@ class Track(context: Context, bundle: Bundle, ratingType: Int) : TrackMetadata()
             title,
             album,
             artwork.toString(),
+            duration,
             AudioItemOptions(
                 headers,
                 userAgent,
